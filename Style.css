@@ -1,0 +1,188 @@
+.Pagina1{
+    background-color:#B8860B;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.container1{
+    display:flex;
+    flex: 1;
+}
+.container2{
+    display:flex;
+    flex: 1;
+}
+.Title{
+    text-align: center;
+    color: #FFFFFF;
+}
+.menu1{
+    text-align: center;
+    padding: 20px;
+    background-color: #DAA520;
+    color: #FFFFFF;
+}
+ul{
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+li{
+    display: inline;
+    margin-right: 20px;
+}
+li a{
+    display: inline;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    
+    background-color: #111; 
+}
+.Pagina2{
+    background-color: #000080;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.menu2{
+    text-align: center;
+    padding: 20px;
+    background-color: #00008B;
+    color: #FFFFFF;
+}
+.cont1{
+    display:flex;
+    flex: 1;
+}
+.cont2{
+    display:flex;
+    flex: 1;
+}
+.menu3{
+    text-align: center;
+    padding: 20px;
+    background-color: #ADD8E6;
+    color: #FFFFFF;
+}
+.Pagina3{
+    background-color: #87CEEB;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.historia{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    width: 99%;   
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Peñarol{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    width: 99%;
+}
+.Independiente{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    width: 99%;
+}
+.Estudiantes{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    width: 99%;
+}
+.Boca{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    width: 99%; 
+}
+.River{
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 99%; 
+}
+
+.Racing{
+    text-align: center;
+    color: #FFFFFF; 
+    padding: 10px;
+    width: 99%; 
+}
+.Argentinos{
+    text-align: center;
+    color: #FFFFFF; 
+    padding: 10px;
+    width: 99%; 
+}
+.Velez{
+    text-align: center;
+    color: #FFFFFF;  
+    padding: 10px;
+    width: 99%; 
+}
+.SanLorenzo{
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 99%;  
+}
+
+.historiaCham{
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    width: 99%;
+    background: linear-gradient(#00008B, #FFFFFF);
+}
+.Madrid{
+    font:oblique bold 90% cursive;
+    text-align: center;
+    padding: 10px;
+    width: 99%;
+    background-color: #FFFFFF;
+}
+.Milan{
+    font:oblique bold 90% cursive;
+    text-align: center;
+    padding: 10px;
+    width: 99%;
+    background: linear-gradient(#8B0000 , #000000);
+    color: #000000;
+}
+.Liverpool{
+    font:oblique bold 90% cursive;
+    text-align: center;
+    padding: 10px;
+    width: 99%;
+    background-color: #8B0000;
+    color: #000000;
+}
+.BayernMunich{
+    font:oblique bold 90% cursive;
+    text-align: center;
+    padding: 10px;
+    width: 99%;
+    background: linear-gradient(#8B0000, #00008B); 
+}
+.Arg{
+    text-align: center;
+    padding: 10px;
+    width: 99%;
+    color: #FFFFFF;
+}
