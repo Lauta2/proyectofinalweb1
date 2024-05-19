@@ -186,3 +186,10 @@ img{
     width: 99%;
     color: #FFFFFF;
 }
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+.error-border {
+    border: 2px solid red;
+}
