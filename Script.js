@@ -42,7 +42,7 @@ function validateForm() {
     if (valid) {
         const li = document.createElement('li');
         if (telefono.value.trim() !== '') {
-            li.textContent = `Hola,  ${nombre.value} ${Apellido.value}, gracias por visitar mi pagina!, te llamaremos al ${telefono.value} por caulaquier actualizacion.  `
+            li.textContent = `Hola,  ${nombre.value} ${Apellido.value}, gracias por visitar mi pagina!, te llamaremos al ${telefono.value} por cualquier actualizacion.  `
         } else {
             li.textContent = `Hola,  ${nombre.value} ${Apellido.value}, gracias por visitar mi pagina!`
         }
