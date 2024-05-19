@@ -13,5 +13,25 @@
             <li><a href="./index2.html">Champions</a></li>
         </ul>
     </div>
+    <div>
+        <body>
+            <h1>Formulario de Contacto</h1>
+            <form id="contactForm" onsubmit="return validateForm()">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" maxlength="10"><br><br>
+        
+                <label for="Apellido">Apellido</label><br>
+                <input type="text" id="Apellido" name="Apellido" maxlength="10" ><br>
+                
+        
+                <label for="telefono">Teléfono:</label><br>
+                <input type="text" id="telefono" name="telefono"><br><br>
+        
+                <input type="submit" value="Enviar">
+            </form>
+        
+            <h2>Mensajes:</h2>
+            <ul id="listaMensajes"></ul>
+    </div>
 </body>
 </html>
