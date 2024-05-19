@@ -15,27 +15,27 @@ function validateForm() {
 
     
     if (nombre.value.trim() === '') {
-        showError(nombre, 'El nombre es obligatorio.');
+        mostrarError(nombre, 'El nombre es obligatorio.');
         valid = false;
     } else if (nombre.length == 0 || nombre.length > 10) {
-        showError(nombre, 'El nombre debe tener maximo 10 caracteres.');
+        mostrarError(nombre, 'El nombre debe tener maximo 10 caracteres.');
         valid = false;
     }
 
    
     
     if (Apellido.value.trim() === '') {
-        showError(Apellido, 'El apellido debe ser obligatorio');
+        mostrarError(Apellido, 'El apellido debe ser obligatorio');
         valid = false;
     } else if (Apellido.length == 0 || Apellido.length > 10) {
-        showError(Apellido, 'El apellido debe tener maximo 10 caracteres.');
+        mostrarError(Apellido, 'El apellido debe tener maximo 10 caracteres.');
         valid = false;
     }
 
   
     const patroncel = /^\d{10}$/;
     if (telefono.value.trim() !== '' && !patroncel.test(telefono.value.trim())) {
-        showError(telefono, 'El teléfono debe ser de 10 dígitos.');
+        mostrarError(telefono, 'El teléfono debe ser de 10 dígitos.');
         valid = false;
     }
 
