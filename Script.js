@@ -18,7 +18,7 @@ function validateForm() {
         showError(nombre, 'El nombre es obligatorio.');
         valid = false;
     } else if (nombre.length == 0 || nombre.length > 10) {
-        showError(email, 'El nombre debe tener maximo 10 caracteres.');
+        showError(nombre, 'El nombre debe tener maximo 10 caracteres.');
         valid = false;
     }
 
@@ -28,14 +28,14 @@ function validateForm() {
         showError(Apellido, 'El apellido debe ser obligatorio');
         valid = false;
     } else if (Apellido.length == 0 || Apellido.length > 10) {
-        showError(email, 'El apellido debe tener maximo 10 caracteres.');
+        showError(Apellido, 'El apellido debe tener maximo 10 caracteres.');
         valid = false;
     }
 
   
     const patroncel = /^\d{10}$/;
     if (telefono.value.trim() !== '' && !patroncel.test(telefono.value.trim())) {
-        showError(telefono, 'El teléfono debe ser de 12 dígitos.');
+        showError(telefono, 'El teléfono debe ser de 10 dígitos.');
         valid = false;
     }
 
