@@ -53,3 +53,10 @@ function validateForm() {
 
     return false;
 }
+function mostrarError(input, mensaje) {
+    const error = document.createElement('div');
+    error.className = 'error';
+    error.textContent = mensaje;
+    input.classList.add('error-border');
+    input.parentNode.insertBefore(error, input.nextSibling);
+}
