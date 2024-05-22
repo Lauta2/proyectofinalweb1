@@ -194,9 +194,15 @@ img{
     border: 2px solid red;
 }
 .carrusel1 img {
-    width: 350px; /* Ajusta el ancho deseado */
-    height: 250px; /* Ajusta la altura deseada */
-    object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsión */
-    border: 1px solid #ccc; /* Opcional: añade un borde para las imágenes */
+    width: 350px; 
+    height: 250px; 
+    object-fit: cover; 
+    border: 1px solid #ccc; 
+}
+.carrusel2 img{
+    width: 400px; 
+    height: 450px; 
+    object-fit: cover; 
+    border: 1px solid #ccc;  
 }
 
