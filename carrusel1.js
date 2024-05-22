@@ -1,21 +1,21 @@
-let array=["imgcarru/River_Plate.jpg","imgcarru/Racing.jpg","imgcarru/Argentinos.jpg","imgcarru/velez.jpg"];
-    let im = document.getElementById("foto");
-    let cont = 0;
+let array = ["./imgcarru/River_Plate.jpg", "./imgcarru/Racing.jpg", "./imgcarru/Argentinos.jpg", "./imgcarru/Velez.jpg"];
+let im = document.getElementById("foto");
+let cont = 0;
 
-    function anterior(){
-        if(cont===0){
-            cont = array.length -1;
-        }else{
-            cont--;
-        }
-        im.src = array[cont];
+function anterior() {
+    if (cont === 0) {
+        cont = array.length - 1;
+    } else {
+        cont--;
     }
+    im.src = array[cont];
+}
 
-    function siguiente(){
-        if(cont===array.length -1){
-            cont =0;
-        }else{
-            cont++;
-        }
-        im.src = array[cont];
-    }   
+function siguiente() {
+    if (cont === array.length - 1) {
+        cont = 0;
+    } else {
+        cont++;
+    }
+    im.src = array[cont];
+}
