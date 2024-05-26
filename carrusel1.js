@@ -1,23 +1,23 @@
-let array=["imgcarru/River.jpg","imgcarru/Racing.jpg","imgcarru/Argentinos.jpg","imgcarru/San Lorenzo.jpg"];
-    let im = document.getElementById("foto");
-    let cont = 0;
+let array2=["imgcarru/River.jpg","imgcarru/Racing.jpg","imgcarru/Argentinos.jpg","imgcarru/San Lorenzo.jpg"];
+    let im2 = document.getElementById("foto2");
+    let cont2 = 0;
 
-    function anterior(){
-        if(cont===0){
-            cont = array.length -1;
+    function anterior2(){
+        if(cont2===0){
+            cont2 = array2.length -1;
         }else{
-            cont--;
+            cont2--;
         }
-        im.src = array[cont];
+        im2.src = array2[cont2];
     }
 
-    function siguiente(){
-        if(cont===array.length -1){
-            cont =0;
+    function siguiente2(){
+        if(cont2===array2.length -1){
+            cont2 =0;
         }else{
-            cont++;
+            cont2++;
         }
-        im.src = array[cont];
+        im2.src = array2[cont2];
     }   
 let array1=["imgcarru2/Di Maria.jpg","imgcarru2/Fernando Redondo.jpg","imgcarru2/Messi.jpg","imgcarru2/Tevez.jpg","imgcarru2/Zanetti.jpeg"];
 let im1 = document.getElementById("foto1");
