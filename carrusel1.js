@@ -1,4 +1,4 @@
-let array2=["imgcarru/River.jpg","imgcarru/Racing.jpg","imgcarru/Argentinos.jpg","imgcarru/San Lorenzo.jpg"];
+let array2=["imgcarru/River.jpg","imgcarru/Racing.jpg","imgcarru/Argentinos.jpg","imgcarru/San lorenzo.jpeg"];
     let im2 = document.getElementById("foto2");
     let cont2 = 0;
 
